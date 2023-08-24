@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <nav class="bg-green-400 flex justify-between px-24 h-16 items-center">
+        <div class="text-3xl">TailwindWeb</div>
+    <div>
+        <a href="#" class="text-xl px-4">Home</a>
+        <a href="#" class="text-xl px-4">About</a>
+        <a href="#" class="text-xl px-4">Blog</a>
+        <a href="#" class="text-xl px-4">Contact</a>
+        <a href="#" class="text-xl px-4 bg-green-700 text-white py-2 hover:bg-green-800">Login</a>
+    </div>
+    </nav>
+    <header class="flex justify-between items-center">
+        <div class="pl-20 w-2/5  ">
+            <h1 class="text-5xl">Welcome to <span class="text-green-600 font-bold">TailwindCSS</span> Website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nam vero, facilis quibusdam officia sapiente minus eaque illo voluptate repellat sunt eum aut non voluptas totam? Est non cum nobis.</p>
+            <button class="bg-red-600 px-3 py-2 text-white hover:bg-red-800 rounded ">Subscribe</button>
+            <button class="bg-green-700 px-3 py-2 text-white mt-4 ml-3 hover:bg-green-900 rounded ">Connect us</button>
+        </div>
+        <div class="w-3/5  ">
+            <img src="https://static.vecteezy.com/system/resources/previews/019/038/966/non_2x/girl-working-on-laptop-illustration-concept-on-white-background-vector.jpg" alt="">
+        </div>
+    </header>
+    <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Tailwind CSS generating the corresponding styles and then writing them to a static CSS file.</p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600">UserName</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email ID</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Contact</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
+</body>
+</html>
